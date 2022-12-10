@@ -1,0 +1,25 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-thread_safety
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'bin/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+
+Lint/EmptyBlock:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+RSpec/FilePath:
+  Exclude:
+    - 'spec/omniauth/eve_online_spec.rb'
+    - 'spec/omniauth/strategies/eve_online_spec.rb'
