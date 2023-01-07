@@ -25,6 +25,6 @@ group :lint do
 end
 
 group :test do
-  gem 'simplecov', '~> 0.21.2'
+  gem 'simplecov', '~> 0.22.0'
   gem 'webmock', '~> 3.18'
 end
