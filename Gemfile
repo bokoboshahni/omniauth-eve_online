@@ -16,7 +16,7 @@ end
 group :lint do
   gem 'bundler-audit', '~> 0.9.1', require: false
   gem 'bundler-leak', '~> 0.3.0', require: false
-  gem 'rubocop', '~> 1.39', require: false
+  gem 'rubocop', '~> 1.43', require: false
   gem 'rubocop-faker', '~> 1.1', require: false
   gem 'rubocop-performance', '~> 1.15', require: false
   gem 'rubocop-rake', '~> 0.6.0', require: false
